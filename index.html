@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Your Name — Portfolio</title>
+    <title>Alvin's — Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <meta
       name="description"
@@ -22,20 +22,6 @@
           <div>
             <div style="font-weight: 800">Alvin's Portfolio</div>
             <div style="font-size: 0.85rem; color: var(--muted)">
-              <span id="element"></span></br>
-          <!--Setup and start animation -->
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: [
-          "Web Developer",
-          "System Analyst",
-          "Software Engineer",
-          "Cybersecurity Analyst",
-        ],
-        typeSpeed: 150,
-      });
-    </script>
             </div>
           </div>
         </a>
@@ -52,7 +38,7 @@
       <main class="hero" role="main">
         <div>
           <h1>Hi, I'm Alvin Maina.</h1>
-          <p class="lead"> <span id="element"></span></br>
+          <p class="lead">I am a <span id="element"></span></br>
           <!--Setup and start animation -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
@@ -66,11 +52,6 @@
         typeSpeed: 150,
       });
     </script>
-            I build clean, accessible websites and delightful user experiences.
-            I enjoy solving problems with thoughtful design and shipping
-            high-quality code.
-          </p>
-
           <div style="margin-top: 14px; display: flex; gap: 10px">
             <a class="btn" href="#projects">See my work</a>
             <a class="btn secondary" href="#contact">Get in touch</a>
@@ -129,10 +110,11 @@
        
       <section id="about" class="card" aria-labelledby="aboutHeading">
         <h2 id="aboutHeading">About</h2>
-        <p style="color: var(--muted)">
-          I'm a front-end developer with a passion for building accessible,
-          responsive web applications. I focus on performance, clarity, and
-          delightful micro-interactions.
+        <p style="color: var(--muted)">  
+          <p>I specialize in building secure and highly performing digital solutions by designing user-friendly website to developing reliable software systems and protecting them from threats.
+           I focus on performance, clarity, and delightful micro-interactions. 
+            I'm passionate about creating technolgy that works beautifully and safely. </p>
+          </p>
         </p>
       </section>
 
@@ -156,9 +138,9 @@
 
         <div class="grid" style="margin-top: 12px">
           <article class="project" aria-labelledby="p1">
-            <h4 id="p1">Project One</h4>
+            <h4 id="p1">Weather Forecast App</h4>
             <p>
-             A real-time weather forecast app that enables user to search any city and view the 
+             A real-time weather forecast app that enables user to search any city and view live weather conditions such as temperature and humidity. 
             </p>
             <div
               style="
@@ -170,15 +152,14 @@
             >
               <span class="skill">React</span>
               <span class="skill">Node</span>
-              <a class="btn" href="#" style="margin-left: auto">Live</a>
             </div>
           </article>
 
           <article class="project" aria-labelledby="p2">
-            <h4 id="p2">Project Two</h4>
+            <h4 id="p2">Personal Portfolio Website</h4>
             <p>
-              Short description of project two — maybe a portfolio site or a
-              tool.
+              A responsive portfolio website showcasing my projects and skills and contact form. 
+              Designed with HTML and CSS for a clean morden use experience. 
             </p>
             <div
               style="
@@ -190,16 +171,16 @@
             >
               <span class="skill">HTML</span>
               <span class="skill">CSS</span>
-              <a class="btn" href="#" style="margin-left: auto">Repo</a>
             </div>
           </article>
 
           <article class="project" aria-labelledby="p3">
-            <h4 id="p3">Project Three</h4>
+            <h4 id="p3">Task Manager App</h4>
             <p>
-              Short description of project three — highlight a metric or
-              outcome.
+              Asimple task manager that lets users organize, edit, format and delete taska. 
+              Data is saved locally to ensuring your task remain even after refreshing
             </p>
+
             <div
               style="
                 margin-top: auto;
@@ -209,8 +190,7 @@
               "
             >
               <span class="skill">Figma</span>
-              <span class="skill">Next.js</span>
-              <a class="btn" href="#" style="margin-left: auto"></Details></a>
+              <span class="skill">Next.js</span> 
             </div>
           </article>
         </div>
@@ -286,7 +266,7 @@
         alert(
           "Thank you, " +
             (data.get("name") || "friend") +
-            '! Your message was "sent" (front-end demo).'
+            '! Your message was "sent"'
         );
         form.reset();
       }
